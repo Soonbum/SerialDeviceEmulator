@@ -114,6 +114,7 @@ namespace DeviceEmulator
                 newEmulator.SetDataGridView(dataGridView_PortConfiguration, dataGridView_ProtocolList);
 
                 Thread newThread = new Thread(newEmulator.Start);
+                newThread.IsBackground = true;
                 newThread.Start();
 
                 serialPortEmulators.Add(newEmulator);
