@@ -194,7 +194,7 @@
             Controls.Add(labelPortConfiguration);
             Controls.Add(dataGridView_PortConfiguration);
             Name = "DeviceEmulatorForm";
-            Text = "Device Emulator";
+            Text = "Serial Device Emulator";
             FormClosing += DeviceEmulatorForm_FormClosing;
             ((System.ComponentModel.ISupportInitialize)dataGridView_PortConfiguration).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView_ProtocolList).EndInit();
